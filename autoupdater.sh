@@ -26,7 +26,7 @@ then
     then
 	sudo -v
 	sudo do-release-upgrade
-	"Done, have a nice day!"
+	printf "Done, have a nice day!"
 	exit 0
     else
 	printf "Done; have a nice day!"
